@@ -1,0 +1,10 @@
+第一个终端：roscore
+第二个终端：cd EAICON/              sh run_jaka_sim.sh
+第三个终端： cd        cd jaka        conda activate yolov8        rosrun large_scale_model_arm isaac_yolov8.py 
+第四个终端： cd jaka              conda activate inference         rosrun large_scale_model_arm isaac_scale.py         （大模型询问格式：获取所有，或者获取单个）
+第五个终端： cd jaka                     conda deactivate          roslaunch large_scale_model_arm isaac_jaka.launch 
+
+
+每一次运行前：： sc
+
+指令集：获取右上角瓶子的坐标，并放到左侧传送带上
